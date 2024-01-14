@@ -83,24 +83,23 @@ Here are some important python KEywords:-
  7. while:- it is used to create a loop that repeatedly executes a block of code as long as a specified condition is true.
  8. for:- It is also used to create a loop that iterates over a sequence and executes a block of code for each item in the sequence.
  9. in:- used with for in loop. it check if a value is present in a sequence.
- 10. try:- it is a beggining of a block of code that is subject to exception handling. i
- 11. t is followed by except to catch and handle exceptions.
- 12. except:- used with try, it defines a block of code to execute when an exception is raised in the corresponding try block.
- 13. finally:- used with try, it defines a block of codes that is always executed, whether an exception is raised or not.
- 14. def:- it is used to define a function.
- 15. class:- it is used to define a class, which is a blueprint for creating objects in object oriented programming.
- 16. return:- it is used within a function to specify the value that the function should return.
- 17. import:- it is used to import a module or libraries to access their function, class or variables.
- 18. from:- used with import to specify which specific components from a module should be imported.
- 19. true:- it represents is boolean valur for true.
- 20. false:- it represents a boolean valur for false.
- 21. as:- used with import to create an alias for a module, making it easier to refrence in the code.
- 22. none:- it represent a special null value or absence of value.
- 23. is:- it is used to identity comparison checking if two variables refer to the same object in memory.
- 24. lambda:- it is used to create small, anonymous functions.
- 25. with:- it is used for content management ensuring thet certain operations are performed before and after a block of code.
- 26. global:- it is used to declare a global variable within a functions scope.
- 27. nonlocal:- it is used to declare a variable as nonlocal, which allows modifying a variable in an enclosing scope. 
+ 10. try:- it is a beggining of a block of code that is subject to exception handling. it is followed by except to catch and handle exceptions.
+ 11. except:- used with try, it defines a block of code to execute when an exception is raised in the corresponding try block.
+ 12. finally:- used with try, it defines a block of codes that is always executed, whether an exception is raised or not.
+ 13. def:- it is used to define a function.
+ 14. class:- it is used to define a class, which is a blueprint for creating objects in object oriented programming.
+ 15. return:- it is used within a function to specify the value that the function should return.
+ 16. import:- it is used to import a module or libraries to access their function, class or variables.
+ 17. from:- used with import to specify which specific components from a module should be imported.
+ 18. true:- it represents is boolean valur for true.
+ 19. false:- it represents a boolean valur for false.
+ 20. as:- used with import to create an alias for a module, making it easier to refrence in the code.
+ 21. none:- it represent a special null value or absence of value.
+ 22. is:- it is used to identity comparison checking if two variables refer to the same object in memory.
+ 23. lambda:- it is used to create small, anonymous functions.
+ 24. with:- it is used for content management ensuring thet certain operations are performed before and after a block of code.
+ 25. global:- it is used to declare a global variable within a functions scope.
+ 26. nonlocal:- it is used to declare a variable as nonlocal, which allows modifying a variable in an enclosing scope. 
     
 
 
