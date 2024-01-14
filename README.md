@@ -12,7 +12,6 @@ Use Python when,
 
 # Data Types
 1. Numric Data Types
-   There are 3 types of numric data types:-
    1. Int:- Represents Integar (Whole Number)
    Ex- x = 5
    2. float:- Represents Floating- Point Numbers (Number With Decimal Point)
@@ -78,7 +77,30 @@ Here are some important python KEywords:-
  1. and:- It is a logical operator that returns Ture if both operands are True.
  2. or:- It is a logical operator that returns True if at least one of the operands true.
  3. not:- It is a logical operator that returns opposite of the operands truth value.
- 4. if:- 
+ 4. if:- It is used to start a condition statement and is followed by a condition that determines whether the code block is executed.
+ 5. else:-It is used in conjuction with if define an alternative code block to execute when the if condition is false.
+ 6. elif:- short for 'else if', it is used to additional condition after an if statement and is used in combination with if and else.
+ 7. while:- it is used to create a loop that repeatedly executes a block of code as long as a specified condition is true.
+ 8. for:- It is also used to create a loop that iterates over a sequence and executes a block of code for each item in the sequence.
+ 9. in:- used with for in loop. it check if a value is present in a sequence.
+ 10. try:- it is a beggining of a block of code that is subject to exception handling. i
+ 11. t is followed by except to catch and handle exceptions.
+ 12. except:- used with try, it defines a block of code to execute when an exception is raised in the corresponding try block.
+ 13. finally:- used with try, it defines a block of codes that is always executed, whether an exception is raised or not.
+ 14. def:- it is used to define a function.
+ 15. class:- it is used to define a class, which is a blueprint for creating objects in object oriented programming.
+ 16. return:- it is used within a function to specify the value that the function should return.
+ 17. import:- it is used to import a module or libraries to access their function, class or variables.
+ 18. from:- used with import to specify which specific components from a module should be imported.
+ 19. true:- it represents is boolean valur for true.
+ 20. false:- it represents a boolean valur for false.
+ 21. as:- used with import to create an alias for a module, making it easier to refrence in the code.
+ 22. none:- it represent a special null value or absence of value.
+ 23. is:- it is used to identity comparison checking if two variables refer to the same object in memory.
+ 24. lambda:- it is used to create small, anonymous functions.
+ 25. with:- it is used for content management ensuring thet certain operations are performed before and after a block of code.
+ 26. global:- it is used to declare a global variable within a functions scope.
+ 27. nonlocal:- it is used to declare a variable as nonlocal, which allows modifying a variable in an enclosing scope. 
     
 
 
