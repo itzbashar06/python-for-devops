@@ -99,7 +99,25 @@ Here are some important python KEywords:-
  23. lambda:- it is used to create small, anonymous functions.
  24. with:- it is used for content management ensuring thet certain operations are performed before and after a block of code.
  25. global:- it is used to declare a global variable within a functions scope.
- 26. nonlocal:- it is used to declare a variable as nonlocal, which allows modifying a variable in an enclosing scope. 
+ 26. nonlocal:- it is used to declare a variable as nonlocal, which allows modifying a variable in an enclosing scope.
+
+
+# Understanding Variables in Python
+ In Python, a variable is a names storage location used to store data, varables are essential for programming as they allow us to work with data, manipulate it and make our code more flexible and reuseable.
+
+# Variable Scope and Lidetime
+* Variable Scoep:- In python, variables have different scopes, which determine where in the code the variable can be accessed. There are mainly two types of variable scopes.
+1. Local Scope:- Variables defined within a function have local scope and are only accessible inside that function.
+   Ex:- def my_function():
+               x = 10  # Local Variable
+               print(x)
+2. Global Scope:- Variables defined outside of any fuction have global scope and can be accessed throuthout the entire code.
+   Ex:- y = 20   # Global Scope
+        def another_function():
+                    print(y)
+
+Variable Lifetime:-The lifetime of a variable is determined by when it is created and when it is destroyed or goes out of scope. Local variables exist only while the function is being executed, while global variables exist for the entire duration of the program.
+     
     
 
 
