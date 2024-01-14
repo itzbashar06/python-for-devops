@@ -117,24 +117,5 @@ Here are some important python KEywords:-
                     print(y)
 
 * Variable Lifetime:-The lifetime of a variable is determined by when it is created and when it is destroyed or goes out of scope. Local variables exist only while the function is being executed, while global variables exist for the entire duration of the program.
-     
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-Python for DvOps Engineer Point of View
+# Variables naming convention and best practices:
