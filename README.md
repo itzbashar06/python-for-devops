@@ -1,38 +1,55 @@
 ### python-for-devops
 
-# Most Important Topin in Python For DevOps Engineer point of view
+# Most Important Topic in Python For DevOps Engineer point of view
+
 Use Python when,
 1. Complex Logic
 2. API Integration
 3. Reusable Code
 4. Error handing
-5. Advanced Data Processing and many More .....
+5. Advanced Data Processing
+   and many More .....
 
-Data Types
+# Data Types
 1. Numric Data Types
    There are 3 types of numric data types:-
-   1. Integar
-   2. floating
-   3. complex
+   1. Int:- Represents Integar (Whole Number)
+   Ex- x = 5
+   2. float:- Represents Floating- Point Numbers (Number With Decimal Point)
+   Ex- y = 3.14
+
 2. Sequence Data Types
-   There are 3 Types of Sequence data types
-   1. String
-   2. List
-   3. Tuple
+   1. Str:- Represents String (Sequence Of Character)
+   Ex- text = "Hello World"
+   2. List:- Represents List (Ordered, Mutable)
+   Ex- my_list = [1, 2, 3,] 
+   3. Tuple:- Represents Tuple (Unordered, immutable)
+   Ex- my_tuple = (1, 2, 3,)
+
 3. Mapping Type
-   There are only one type of mapping type
-   1. Dictionary
+   1. Dict:- Represents Dictionary (Key Value Pairs)
+   Ex- my_dict ={"name", "john", "age", "18"}
+
 4. Set Types
-   There are two types of set types:-
-   1. Set
-   2. Frozenset
+   1. Set:- Represents Set (Unordered Collection or Unique Elements)
+   Ex- my_set = {1, 2, 3}
+   2. Frozenset:- Represents Immutable sets
+   Ex- my_frozenset = ([1, 2, 3,])
+
 5. Boolean Type
+   1. Bool:- Represents Boolean (True Or False)
+   Ex- is_valid = True
+
 6. Binary Types
-   There are two types of Binary types:-
-   1. Bytes
-   2. Bytesarray
+   1. Bytes:- represents immutable sequence of Bytes
+   Ex- data = b'hello'
+   3. Bytesarray:- Represents mutable sequence of bytes
+   Ex- bytearray = (b'hello')
+
 7. None Type
-8. Custom Data Types
+   1. none type:- Represents the none object which is used to indicate a null value
+
+8. Custom Data Types:- you can also define your custom data types using class and objects
     
 
 
