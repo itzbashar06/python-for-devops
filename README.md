@@ -105,7 +105,7 @@ Here are some important python KEywords:-
 # Understanding Variables in Python
  In Python, a variable is a names storage location used to store data, varables are essential for programming as they allow us to work with data, manipulate it and make our code more flexible and reuseable.
 
-# Variable Scope and Lidetime
+# Variable Scope and Lifetime
 * Variable Scoep:- In python, variables have different scopes, which determine where in the code the variable can be accessed. There are mainly two types of variable scopes.
 1. Local Scope:- Variables defined within a function have local scope and are only accessible inside that function.
    Ex:- def my_function():
@@ -116,7 +116,7 @@ Here are some important python KEywords:-
         def another_function():
                     print(y)
 
-Variable Lifetime:-The lifetime of a variable is determined by when it is created and when it is destroyed or goes out of scope. Local variables exist only while the function is being executed, while global variables exist for the entire duration of the program.
+* Variable Lifetime:-The lifetime of a variable is determined by when it is created and when it is destroyed or goes out of scope. Local variables exist only while the function is being executed, while global variables exist for the entire duration of the program.
      
     
 
