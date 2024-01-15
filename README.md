@@ -119,3 +119,54 @@ Here are some important python KEywords:-
 * Variable Lifetime:-The lifetime of a variable is determined by when it is created and when it is destroyed or goes out of scope. Local variables exist only while the function is being executed, while global variables exist for the entire duration of the program.
 
 # Variables naming convention and best practices:
+
+It's important to follow naming conventions and best practices for variables to write clean and maintanable code:-
+ * Variable names should be descriptive and indicate their purpose.
+ * Use lowercaes letters and separate words with underscores for variable names.
+ * Avoid using reserved words (Keywords) for variable names.
+
+
+# Functions
+A function is a block of code that performs a specific task. Functions are defined using the def keywords and can take inputs, called arguments. They are a way to encapsuleate and reuse code.
+Ex:- def greet(name):
+         return f"Hello, {name}!"
+
+    message = greet("Alice")
+    print(message)
+
+
+# Modules
+A module is a python script contraining python code. It can define functions, classes and variables that can be used in other python scripts. Moduless help organize and modularize your code. making it more maintainable.
+ Ex:- Suppose you have a python file named my_module.py:-
+      # my_module.py
+       def square (x):
+           return x ** 2
+      You can use this module in another script:-
+        import my_module
+        result = my_module.square(5)
+        print(result)
+        print(my_module.pi)
+      In this case, my_module is a python module.
+
+ # packages
+ A package is a collection of modules organized in directories. packages help you organize related modules into a hierarchy. They contain a special file named ___init___.py, which indicates that the directory should be treated as a package.
+ 
+           
+ # Python workspaces
+  Python workspaces can be local or virtual environments. A local environment is the system- wide python installation, while a virtual environment is an isolated environmentis the system- wide python installation, while a virtual environment is an isolated environment for a specific project. You can create virtual environment using tools like "virtualenv" or "venv".
+  Ex:- # create a virtual environment
+       python -m venv myenv
+       # activate the virtual environment
+       myenv\scripts\activate
+ # introduction to operators in python
+  Operators in python are special symbols or keywords that are used to perform operations on variables and values. Python supports a wide range of operators categorized into several types. These operators allow you to perform tasks such as arithmetic calculations, assign values to variables, compare values, perform logical operations and more.
+  Here are the main types of operators in python:
+  * Arithmetic Operators:- These Operators are used for performing basic mathematical operations such as addition, substraction, multiplication, division and more.
+  * Assignment Operators:- Assignments operators are used to assign values to variables. They include the equal sign (=) and various compound assignment operators.
+  * Relational Operators:- Relational operators are used to compare values and determine the relationship between them. They return a boolean result(True or false).
+  * Logical Operators:- Logical operatrs are used to combine and manipulate boolean values they include "and", "or", and "not".
+  * Identity Operators:- Identity operators are used to check if two variables point te the same object in memory. The identity operators in python are "is" and "is not".
+  * membership operators:- membership operators are used are check if a value is present in a sequence or collection, such as a list, tuple or string. The membership operators in python are "in" and "not in"
+  * 
+
+
